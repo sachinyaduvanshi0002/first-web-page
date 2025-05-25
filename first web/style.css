@@ -1,0 +1,17 @@
+h1{
+    color:yellow;
+}
+h2{
+    color:aliceblue;
+}
+h3{
+    color:rgb(235, 238, 240);
+}
+body{
+    background-image:url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1msDMQ?w=0&h=0&q=60&m=6&f=jpg&u=t") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    margin: 10px;
+}
