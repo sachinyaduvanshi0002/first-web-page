@@ -11,6 +11,10 @@ body{
     background-image:url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1msDMQ?w=0&h=0&q=60&m=6&f=jpg&u=t") ;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 button{
     margin: 10px;
