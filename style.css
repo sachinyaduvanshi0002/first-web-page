@@ -8,14 +8,35 @@ h3{
     color:rgb(235, 238, 240);
 }
 body{
+    text-align:center;
     background-image:url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/BB1msDMQ?w=0&h=0&q=60&m=6&f=jpg&u=t") ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100%;
+    min-height: 100vh;
     margin: 0;
     padding: 0;
 }
 button{
     margin: 10px;
+}
+button img{
+    transition: transform 0.3s ease-in-out;
+}
+button img:hover {
+    animation: vibrate 0.3s linear 2;
+}
+@keyframes vibrate{
+    20% { transform: translate(-3px, 3px)}
+}
+.content{
+    flex: 1;
+    padding: 20px;
+}
+footer{
+    background-color: rgb(0,0,0,0.4);
+    padding: 1px;
+    bottom:0;
+    width:100%;
 }
